@@ -11,12 +11,12 @@ public class convert{
     //use Scanner to collect input from user
     Scanner input = new Scanner (System.in);
     //convertion of kilometers to miles
-    System.out.print("Enter a value to convert kilograms: ");
+    System.out.print("Enter a value to convert kilometers: ");
     double kilometers = input.nextDouble();
-    double mi = (kilograms / 1.60);
+    double mi = (kilometers / 1.60);
     System.out.println("value is equal to " + mi + "mi");
 
-    //conversion of miles tp kilometers
+    //conversion of miles to kilometers
     System.out.print("input a value for mile: ");
     double mile = input.nextDouble();
     double km = (mile * 1.60);
