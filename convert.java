@@ -7,12 +7,16 @@ public class convert{
     //TAIWO AKINTUNDE
     //A00233642
     //Application development
-  
-    //use Scanner to collect input from user
+    //This program has to do with unit conversion
+    
+    // i decleared values as double
+    //use Scanner to collect input from user, 
     Scanner input = new Scanner (System.in);
     //convertion of kilometers to miles
     System.out.print("Enter a value to convert kilometers: ");
+    
     double kilometers = input.nextDouble();
+    //my inputted values in kilometers divide by 1.60
     double mi = (kilometers / 1.60);
     System.out.println("value is equal to " + mi + "mi");
 
@@ -51,3 +55,7 @@ public class convert{
    }
 
 }
+
+//i collected input from user for conversion, then i decleared values as doubles, i applied the formular for each coversion and printed my output/
+//for my last input i had a long double value as the output
+//i could not make use of the if or switch statements because i kept on getting error when i ran the program. This is my first experience with java programming language.
